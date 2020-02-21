@@ -1,0 +1,187 @@
+h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size: calc(25px + 0.5vw);
+    padding: 5px;
+    width: 50%;
+    text-decoration: underline;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: calc(15px + 0.5vw);
+    padding: 2px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(10px + 0.5vw);
+    padding: 5px;
+}
+
+#main{
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.navi{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 20px;
+    left: 0px;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.navi a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.navi a:hover {
+    color: #f1f1f1;
+}
+ 
+.navi .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #818181;
+}
+
+
+
+.menu img{
+    height: auto;
+    width: 2%;
+    padding: 5px;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(12px + 0.5vw);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(autofill, 1fr);
+    grid-template-rows: repeat(autofill, 1fr);
+    grid-gap: 2em;
+    width: fit-content;
+    margin: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}  
+
+.email{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.getin{
+    grid-row: 2;
+    grid-column: span 2;
+    text-align: left;
+}
+
+#callimg{
+    grid-column: span 2;
+}
+
+.call{
+    height: auto;
+    width: 95%;
+    border-radius: 5%;
+}
+
+#container a:link{
+    text-decoration: none;
+    color: rgb(87, 87, 87)
+    }
+
+a:link{
+        text-decoration: none;
+        color: black;
+}    
+    
+a:visited{
+        text-decoration: none;
+        color: rgb(87, 87, 87);
+}    
+    
+#container a:hover{
+        text-decoration: underline;
+        color: rgb(73, 73, 73);
+}
+    
+
+/* don't forget mobile friendly design :< */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width:800px) { 
+    p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(15px + 0.5vw);
+    padding: 10px;  
+}
+
+#main{
+    margin-left: 0px;
+}
+
+.menu img{
+    height: auto;
+    width: 5%;
+    padding: 5px;
+}
+
+#container{
+        font-family: 'Montserrat', sans-serif;
+        font-size: calc(15px + 0.5vw);
+        padding: 5px; 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    
+.email{
+        grid-row: 2;
+        grid-column: 1;
+    }
+.getin{
+    grid-row: 3;
+    grid-column: 1;
+}    
+  }
