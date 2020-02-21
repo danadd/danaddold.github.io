@@ -11,8 +11,6 @@ h1 {
     padding: 5px;
 }
 
-/* This needs to be adjusted for mobile! Don't worry how it flops all over the page */
-
 #main{
     background-color: rgb(255, 255, 255);
     margin-left: 200px;
@@ -152,7 +150,7 @@ p{
 
 a:link{
     text-decoration: none;
-    color: white;
+    color: #818181
     }
 
 a:visited{
