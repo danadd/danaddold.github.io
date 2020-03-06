@@ -139,18 +139,27 @@ p{
     opacity: 1;
 }
 
-.typingtest__wrap {
+.typingtest_wrap {
     position: relative;
 }
 
-.typingtest__wrap:hover .img__description {
+.typingtest_wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.FFVIIR_wrap {
+    position: relative;
+}
+
+.FFVIIR_wrap:hover .img__description {
     visibility: visible;
     opacity: 1;
 }
 
 a:link{
     text-decoration: none;
-    color: #818181
+    color: black;
     }
 
 a:visited{

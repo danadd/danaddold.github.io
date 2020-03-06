@@ -149,7 +149,7 @@ nav li {
 
 a:link{
     text-decoration: none;
-    color: #818181;
+    color: black;
     }
     
     
@@ -321,5 +321,3 @@ a:visited{
 */
 
 /* don't forget mobile friendly design :< 
-
-I think the best thing to do for the grid hearts is under a certain screen size they should just go underneath the text. So that will be apart of this responsive design */
