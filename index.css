@@ -157,6 +157,15 @@ p{
     opacity: 1;
 }
 
+.weather_wrap {
+    position: relative;
+}
+
+.weather_wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
 a:link{
     text-decoration: none;
     color: black;
